@@ -4,51 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Jim Carrey</title>
 </head>
 <body>
-<!-- Actor Component -->
-    <article class="actor">
 
-<!-- Navigation Element of Actor -->
-        <header class="header actor__navigation">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-        </header>
-        
+ <!-- Header and navigation -->
+    <header class="header header--main">
+        <nav class="nav__internal"></nav>
+        <nav class="nav__social">
+            <a href="#" class="nav__social--facebook"></a>
+            <a href="#" class="nav__social--twitter"></a>
+        </nav>
+    </header>
+    
+<!-- Main -->    
+    <main>
+
+<!-- Actor Component -->
+        <article class="actor">
+            
 <!-- Bio Element of Actor -->
-        <section class="actor__bio">
-            <p class="actor__name">Jim Carrey</p>
-            <p class="actor__location">Los Angeles</p>
-            <p class="actor__partner">Ginger Gonzaga</p>
-        </section>
+            <section class="actor__bio">
+                <header class="header header--large actor__header"></header>
+                <ul class="actor__bio">
+                    <div class="actor__name">Jim Carrey</div>
+                    <div class="actor__location">Los Angeles</div>
+                    <div class="actor__partner">Ginger Gonzaga</div>
+                </ul>
+            </section>
 
 <!-- Roles Element of Actor -->
             <section class="actor__roles">
-                <header class="header header--large actor__header">
-                    <h5>Roles</h5>
-                </header>
-                <ul>
-                    The Riddler
-                    The Grinch
-                    Truman
-                    Bruce (God)
+                <header class="header header--large actor__header">Roles</header>
+                <ul class="list">
+                    <div class="list__role">The Riddler</div>
+                    <div class="list__role">The Grinch</div>
+                    <div class="list__role">Truman</div>
+                    <div class="list__role">Bruce (God)</div>
                 </ul>
             </section>
-            
+                
 <!-- Movies Element of Actor -->
-        <section class="actor__movies">
-            <header class="header header--large actor__header">
-                <h5>Movies</h5>
-            </header>
-            <ul>
-                <a href="https://www.imdb.com/title/tt0338013/">Eternal Sunshine</a>
-                <a href="https://www.imdb.com/title/tt1068680/">Yes Man</a>
-                <a href="https://www.imdb.com/title/tt0109040/">Ace Ventura</a>
-            </ul>
-        </section>
+            <section class="actor__movies">
+                <header class="header header--large actor__header">Movies</header>
+                <ul class="list">
+                    <a class="list__movie" href="https://www.imdb.com/title/tt0338013/">Eternal Sunshine</a>
+                    <a class="list__movie" href="https://www.imdb.com/title/tt1068680/">Yes Man</a>
+                    <a class="list__movie" href="https://www.imdb.com/title/tt0109040/">Ace Ventura</a>
+                </ul>
+            </section>
 
-    </article>
+<!-- Sidebar Element of Actor -->
+            <aside class="actor__quote"></aside>
+            <aside class="actor__example">
+                <a class="actor__vid"></a>
+            </aside>
+
+<!-- Footer and navigation -->
+            <footer class="footer footer--main">
+                <nav class="nav__internal"></nav>
+                <nav class="nav__contact"></nav>
+            </footer>
+            
+        </article>
+    </main>
 </body>
 </html>
