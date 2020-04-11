@@ -5,7 +5,7 @@
 }
 
 .header {
-    display: flex;
+
 }
 
 .header--main {
@@ -16,14 +16,13 @@
 .header .nav__header {
     flex: 0 0 100%;
     justify-content: space-evenly;
-    flex-flow: row nowrap;
 }
 
 .header .nav__header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    flex-direction: column;
 }
 
 .header .nav__header li {
@@ -39,7 +38,7 @@
     justify-content: flex-start;
 }
 
-.nav__soc {
+.nav__social {
     justify-content: flex-end;
 }
 
