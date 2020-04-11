@@ -4,29 +4,19 @@
     background-attachment: fixed;
 }
 
-.header {
-
-}
-
 .header--main {
     background-color: burlywood;
     padding: 1em 0 1em 0;
 }
 
 .header .nav__header {
-    flex: 0 0 100%;
-    justify-content: space-evenly;
+    display: flex;
 }
 
 .header .nav__header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    flex-direction: column;
-}
-
-.header .nav__header li {
-
 }
 
 .header .nav__header  li > a {
@@ -35,10 +25,13 @@
 }
 
 .nav__internal {
-    justify-content: flex-start;
+    display: flex;
+    flex: auto;
 }
 
 .nav__social {
+    display: flex;
+    flex: auto;
     justify-content: flex-end;
 }
 
