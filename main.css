@@ -1,7 +1,38 @@
-body {
+.main {
     background-image: url("https://images5.alphacoders.com/529/529469.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.header--main {
+    background-color: burlywood;
+    padding: 1em 0 1em 0;
+}
+
+.header .nav__header {
+    display: flex;
+}
+
+.header .nav__header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav__header  li > a {
+    text-decoration: none;
+    padding: 1em;
+}
+
+.nav__internal {
+    display: flex;
+    flex: auto;
+}
+
+.nav__social {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
 }
 
 .actor__bio {
