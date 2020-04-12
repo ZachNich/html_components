@@ -30,49 +30,60 @@
         <article class="actor">
             
 <!-- Bio Element of Actor -->
-            <section class="actor__bio">
-                <header class="header header--large actor__header"></header>
-                <ul class="actor__bio">
-                    <div class="actor__name">Jim Carrey</div>
-                    <div class="actor__location">Los Angeles</div>
-                    <div class="actor__partner">Ginger Gonzaga</div>
-                </ul>
-            </section>
+            <section class="actor__leftside">
+                <section class ="actor__section">
+                    <header class="header header--large actor__header">Who is He?</header>
+                    <ul class="actor__bio">
+                        <li>Name: Jim Carrey</li>
+                        <li>Location: Los Angeles</li>
+                        <li>Age: 58</li>
+                    </ul>
+                </section>
 
 <!-- Roles Element of Actor -->
-            <section class="actor__roles">
-                <header class="header header--large actor__header">Roles</header>
-                <ul class="list">
-                    <div class="list__role">The Riddler</div>
-                    <div class="list__role">The Grinch</div>
-                    <div class="list__role">Truman</div>
-                    <div class="list__role">Bruce (God)</div>
-                </ul>
-            </section>
-                
+                <section class ="actor__section">
+                    <header class="header header--large actor__header">Roles</header>
+                    <ul class="actor__roles">
+                        <li>The Riddler</li>
+                        <li>The Grinch</li>
+                        <li>Truman</li>
+                        <li>Bruce (God)</li>
+                    </ul>
+                </section>
+                    
 <!-- Movies Element of Actor -->
-            <section class="actor__movies">
-                <header class="header header--large actor__header">Movies</header>
-                <ul class="list">
-                    <a class="list__movie" href="https://www.imdb.com/title/tt0338013/">Eternal Sunshine</a>
-                    <a class="list__movie" href="https://www.imdb.com/title/tt1068680/">Yes Man</a>
-                    <a class="list__movie" href="https://www.imdb.com/title/tt0109040/">Ace Ventura</a>
-                </ul>
+                <section class ="actor__section">
+                    <header class="header header--large actor__header">Movies</header>
+                    <ul class="actor__movies">
+                        <li><a class="list__movie" href="https://www.imdb.com/title/tt0338013/">Eternal Sunshine</a></li>
+                        <li><a class="list__movie" href="https://www.imdb.com/title/tt1068680/">Yes Man</a></li>
+                        <li><a class="list__movie" href="https://www.imdb.com/title/tt0109040/">Ace Ventura</a></li>
+                    </ul>
+                </section>
             </section>
 
-<!-- Sidebar Element of Actor -->
-            <aside class="actor__quote"></aside>
-            <aside class="actor__example">
-                <a class="actor__vid"></a>
-            </aside>
-
-<!-- Footer and navigation -->
-            <footer class="footer footer--main">
-                <nav class="nav__internal"></nav>
-                <nav class="nav__contact"></nav>
-            </footer>
-            
+<!-- Sidebar Element of Actor -->       
+            <section class="actor__rightside">
+                <aside class="actor__fact">Fun fact: Ol Jim here only has 12 teeth!</aside>
+                <aside class="actor__quote">Fun quote: "Doth not the sun shine on they who eschew the dark?"</aside>
+            </section>
         </article>
     </main>
+
+<!-- Footer and navigation -->
+    <footer class="footer footer--main">
+        <nav class="nav__footer">
+            <ul class="nav__internal">
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+            <ul class="nav__contact">
+                <li>Phone</li>
+                <li>Email</li>
+            </ul>
+        </nav>
+    </footer>
+            
 </body>
 </html>
